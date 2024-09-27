@@ -1,0 +1,78 @@
+body {
+    font-size: larger;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e6fa; 
+    background-image: url(bg.jpeg);
+    background-size: 4000px;
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    margin-top: 8%;
+}
+
+div{
+    display: inline-block;
+    position: relative;
+    border: linear-gradient(red,yellow) 12px;
+    border-style: groove;
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #fff; 
+    color: #333; 
+    border-radius: 25px;
+    background-image: url(bg2.jpeg);
+    background-size: cover;
+    
+}
+
+#cnt{
+    font-size: larger;
+}
+
+p{
+    font-size: larger;
+    color: black;
+    font-family: cursive;
+    
+}
+
+label, input, h1, button {
+    font-family: cursive;
+}
+
+input{
+    padding: 10px;
+    margin: 15px 0;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+
+button {
+    padding: 10px 25px;
+    background-color: #28a745; 
+    color: whitesmoke;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #218838; 
+}
+
+#idd{
+    display: none;
+    position: relative;
+    font-family: cursive;
+    justify-content: center;
+    grid-template-columns: auto auto; 
+    gap: 10px 20px;
+    padding: 20px;
+}
+
