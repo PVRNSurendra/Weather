@@ -15,8 +15,8 @@ body {
 div{
     display: inline-block;
     position: relative;
-    border: linear-gradient(red,yellow) 12px;
-    border-style: groove;
+    border: black 3px;
+    border-style: solid;
     padding: 40px 80px;
     text-align: center;
     background-color: #fff; 
@@ -38,7 +38,7 @@ p{
     
 }
 
-label, input, h1, button {
+label, input, button {
     font-family: cursive;
 }
 
@@ -71,8 +71,10 @@ button:hover {
     position: relative;
     font-family: cursive;
     justify-content: center;
-    grid-template-columns: auto auto; 
-    gap: 10px 20px;
     padding: 20px;
 }
 
+h1{
+    font-size: xxx-large;
+    font-family: cursive;
+}
