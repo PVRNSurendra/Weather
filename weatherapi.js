@@ -6,7 +6,7 @@ btn.addEventListener('click', function() {
     dv.style.display = 'block';  
     dv.innerHTML = ''; 
     let country = document.querySelector('input').value;
-    let url = `http://api.weatherapi.com/v1/current.json?key=2b59af3046704081b82131508242409&q=${country}&aqi=no`;
+    let url = `http://api.weatherapi.com/v1/current.json?key=2b59af3046704081b82131508242409&q=${country}&aqi=yes`;
 
     if (!country) {
         para.innerText = 'Please enter a country';
